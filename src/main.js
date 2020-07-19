@@ -21,10 +21,26 @@ export function activate(state) {
 async function package_deps() {
   // Add entries from package-deps here manually
   // (to prevent loading atom-package-deps and package.json when the deps are already loaded)
-  const deps = [];
-  if (!deps.some((p) => atom.packages.isPackageLoaded(p))) {
+  const deps =  [
+    "atom-ide-datatip",
+    "atom-ide-signature-help",
+    "atom-ide-hyperclick",
+    "atom-ide-definitions",
+    "atom-ide-outline",
+    "linter",
+    "intentions",
+    "atom-typescript",
+    "linter-eslint",
+  ];
+  if (deps.some((p) => !atom.packages.isPackageLoaded(p))) {
     await import("atom-package-deps").then((atom_package_deps) => {
-      atom_package_deps.install("atom-ide-javascript-js");
+      // install if not installed
+      atom_package_deps.install("atom-ide-javascript-js", false);
+      // enable if disabled
+      deps.filter((p) => !atom.packages.isPackageLoaded(p)).forEach(p => {
+        atom.notifications.addInfo(`Enabling package ${p} that is needed for atom-ide-javascript`)
+        atom.packages.enablePackage(p)
+      })
     });
   }
 }
