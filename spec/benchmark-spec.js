@@ -6,7 +6,6 @@ describe("Benchmark", () => {
     // Activate activation hook
     atom.packages.triggerActivationHook("core:loaded-shell-environment");
     // Activate the package
-    await atom.packages.activatePackage("atom-ide-markdown-service");
     measure("Activation Time", async function activationBenchmark() {
       await atom.packages.activatePackage("atom-ide-javascript");
     });
