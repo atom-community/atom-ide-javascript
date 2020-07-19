@@ -63,10 +63,10 @@ export function deactivate() {
 export function provideYourService() {}
 
 export const config = {
-  doSomething: {
-    title: "title",
-    description: "config description",
-    type: "boolean", // 'number', 'string'
-    default: true,
-  },
+  // doSomething: {
+  //   title: "title",
+  //   description: "config description",
+  //   type: "boolean", // 'number', 'string'
+  //   default: true,
+  // },
 };
