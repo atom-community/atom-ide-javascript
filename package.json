@@ -25,7 +25,7 @@
   },
   "atomTestRunner": "./spec/runner",
   "activationHooks": [
-    "core:loaded-shell-environment"
+    "language-javascript:grammar-used"
   ],
   "engines": {
     "atom": ">=0.174.0 <2.0.0"

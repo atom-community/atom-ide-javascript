@@ -6,7 +6,7 @@ describe("tests", () => {
     // Trigger deferred activation
     atom.packages.triggerDeferredActivationHooks();
     // Activate activation hook
-    atom.packages.triggerActivationHook("core:loaded-shell-environment");
+    atom.packages.triggerActivationHook("language-javascript:grammar-used");
     // Activate the package
     await atom.packages.activatePackage("atom-ide-javascript");
   });

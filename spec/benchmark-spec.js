@@ -4,7 +4,7 @@ describe("Benchmark", () => {
     jasmine.attachToDOM(atom.views.getView(atom.workspace));
     atom.packages.triggerDeferredActivationHooks();
     // Activate activation hook
-    atom.packages.triggerActivationHook("core:loaded-shell-environment");
+    atom.packages.triggerActivationHook("language-javascript:grammar-used");
 
     // For benchmark, activate the deps manually before loading the actual package:
     const deps =  [
