@@ -4,7 +4,11 @@
   "version": "0.1.0",
   "author": "Amin Yahyaabadi",
   "description": "  ",
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "ide",
+    "atom"
+  ],
   "repository": "https://github.com/atom-ide-community/atom-ide-javascript",
   "license": "MIT",
   "scripts": {
