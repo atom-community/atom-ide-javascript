@@ -1,4 +1,5 @@
 import { CompositeDisposable } from "atom";
+import {setupTypeScript} from "./typescript.js";
 
 let subscriptions;
 
@@ -11,7 +12,7 @@ export function activate(state) {
   subscriptions = new CompositeDisposable();
 
   package_deps().then(() => {
-    // do package stuff here
+    setupTypeScript()
   });
 }
 
