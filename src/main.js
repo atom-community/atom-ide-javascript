@@ -24,7 +24,7 @@ async function package_deps() {
   const deps = [];
   if (!deps.some((p) => atom.packages.isPackageLoaded(p))) {
     await import("atom-package-deps").then((atom_package_deps) => {
-      atom_package_deps.install("atom-ide-template-js-js");
+      atom_package_deps.install("atom-ide-javascript-js");
     });
   }
 }
