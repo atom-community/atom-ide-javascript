@@ -1,4 +1,4 @@
-"use babel";
+/** @babel */
 import { createRunner } from "atom-jasmine3-test-runner";
 import pkg from "../package.json";
 
@@ -6,17 +6,20 @@ import pkg from "../package.json";
 export default createRunner({
   testPackages: Array.from(pkg["package-deps"]),
   timeReporter: true,
-  specHelper: true,
-  attachToDOM: true,
-  // Extra Packages
-  customMatchers: true,
-  jasmineFocused: false,
-  jasmineJson: false,
-  jasminePass: false,
-  jasmineShouldFail: false,
-  jasmineTagged: false,
-  mockClock: true,
-  mockLocalStorage: false,
-  profile: true,
-  unspy: false,
+  specHelper: {
+    atom: true,
+    ci: true,
+    attachToDom: true,
+    // Extra Packages
+    customMatchers: true,
+    jasmineFocused: false,
+    jasmineJson: false,
+    jasminePass: false,
+    jasmineShouldFail: false,
+    jasmineTagged: false,
+    mockClock: true,
+    mockLocalStorage: false,
+    profile: true,
+    unspy: false,
+  },
 });
