@@ -13,11 +13,13 @@ JavaScript support for Atom IDE.
 - Autocomplete
 - Linting (TypeScript, Eslint, etc)
 - Type information on hover
-- Goto Declaration
+- Goto Declaration / Hyperclick
 - Find References
-- Semantic view
+- Outline view and Semantic view
 - Block comment and uncomment
 - Rename refactoring
+- Autocomplete paths
+- Automatically import files by drag and drop from the tree view
 - Common Snippets
 - Alternative to symbols-view
 

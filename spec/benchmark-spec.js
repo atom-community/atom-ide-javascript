@@ -11,7 +11,8 @@ describe("Benchmark", () => {
       "atom-ide-base",
       "atom-typescript",
       "linter-eslint",
-      "autocomplete-paths"
+      "autocomplete-paths",
+      "javascript-drag-import"
     ];
     deps.forEach(async p => await atom.packages.activatePackage(p))
 

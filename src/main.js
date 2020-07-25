@@ -26,7 +26,8 @@ async function package_deps() {
     "atom-ide-base",
     "atom-typescript",
     "linter-eslint",
-    "autocomplete-paths"
+    "autocomplete-paths",
+    "javascript-drag-import"
   ];
   if (deps.some((p) => !atom.packages.isPackageLoaded(p))) {
     await import("atom-package-deps").then((atom_package_deps) => {
