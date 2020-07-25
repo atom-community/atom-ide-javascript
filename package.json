@@ -62,6 +62,7 @@
   "package-deps": [
     "atom-ide-base",
     "atom-typescript",
-    "linter-eslint"
+    "linter-eslint",
+    "autocomplete-paths"
   ]
 }
