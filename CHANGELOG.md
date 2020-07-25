@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.2.0...v1.2.1) (2020-07-25)
+
+
+### Bug Fixes
+
+* add catch for promise ([42af986](https://github.com/atom-ide-community/atom-ide-javascript/commit/42af986e989cb01f1a87c8fe518d5cbe6c13c3a1))
+* bug in installation of the deps ([4b86dd9](https://github.com/atom-ide-community/atom-ide-javascript/commit/4b86dd9b410019e737bea012956faf1323de792d))
+
 # [1.2.0](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.1.0...v1.2.0) (2020-07-25)
 
 
