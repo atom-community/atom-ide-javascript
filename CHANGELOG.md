@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.0.0...v1.0.1) (2020-07-25)
+
+
+### Bug Fixes
+
+* disable checkAllFilesOnSave ([b6ceb86](https://github.com/atom-ide-community/atom-ide-javascript/commit/b6ceb867ebb652af14d62118df3911200d318195))
+
 # 1.0.0 (2020-07-20)
 
 
