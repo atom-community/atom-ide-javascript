@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.1.0...v1.2.0) (2020-07-25)
+
+
+### Features
+
+* import files with drag and drop from tree-view ([314f8b1](https://github.com/atom-ide-community/atom-ide-javascript/commit/314f8b1ef3a672fe70e06504c0b5f6145cdff470))
+
 # [1.1.0](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.0.1...v1.1.0) (2020-07-25)
 
 
