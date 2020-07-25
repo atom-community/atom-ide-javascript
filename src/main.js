@@ -32,7 +32,7 @@ async function package_deps() {
   if (deps.some((p) => !atom.packages.isPackageLoaded(p))) {
     await import("atom-package-deps").then((atom_package_deps) => {
       // install if not installed
-      atom_package_deps.install("atom-ide-javascript-js", false);
+      atom_package_deps.install("atom-ide-javascript", false);
       // enable if disabled
       deps.filter((p) => !atom.packages.isPackageLoaded(p)).forEach(p => {
         atom.notifications.addInfo(`Enabling package ${p} that is needed for atom-ide-javascript`)
