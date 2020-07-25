@@ -13,7 +13,9 @@ export function activate(state) {
 
   package_deps().then(() => {
     setupTypeScript()
-  });
+  }).catch((e) => {
+    atom.notifications.addError("atom-ide-javascript failed in installing its dependencies.")
+  })
 }
 
 /**
