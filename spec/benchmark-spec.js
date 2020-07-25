@@ -8,13 +8,7 @@ describe("Benchmark", () => {
 
     // For benchmark, activate the deps manually before loading the actual package:
     const deps =  [
-      "atom-ide-datatip",
-      "atom-ide-signature-help",
-      "atom-ide-hyperclick",
-      "atom-ide-definitions",
-      "atom-ide-outline",
-      "linter",
-      "intentions",
+      "atom-ide-base",
       "atom-typescript",
       "linter-eslint",
     ];
