@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.0.1...v1.1.0) (2020-07-25)
+
+
+### Bug Fixes
+
+* depend on atom-ide-base instead ([b1cde77](https://github.com/atom-ide-community/atom-ide-javascript/commit/b1cde7734ab14e249b0c2ef2fa584f8ed5a4fec0))
+
+
+### Features
+
+* add autocomplete-paths ([60fc8f4](https://github.com/atom-ide-community/atom-ide-javascript/commit/60fc8f49dae95eb35d78c7d8f1b2defab5e1682e))
+
 ## [1.0.1](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.0.0...v1.0.1) (2020-07-25)
 
 
