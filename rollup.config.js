@@ -1,6 +1,6 @@
-import { createPlugins } from "rollup-plugin-atomic";
+import { createPlugins } from "rollup-plugin-atomic"
 
-const plugins = createPlugins(["js"], true);
+const plugins = createPlugins(["js"], true)
 
 export default [
   {
@@ -16,4 +16,4 @@ export default [
     external: ["atom"],
     plugins: plugins,
   },
-];
+]

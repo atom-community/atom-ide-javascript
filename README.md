@@ -8,6 +8,7 @@ JavaScript support for Atom IDE.
 [![apm](https://img.shields.io/apm/v/atom-ide-javascript.svg)](https://github.com/atom-ide-community/atom-ide-javascript)
 
 ## Features
+
 `atom-ide-javascript` provides many features. It combines the features of `atom-typescript`, `eslint-linter`, and many more.
 
 - Autocomplete
@@ -24,11 +25,14 @@ JavaScript support for Atom IDE.
 - Alternative to symbols-view
 
 ## Usage
+
 Just install and enjoy.
 
 ## Roadmap
+
 This is in the early stage of development. In the future releases, the less relevant typescript errors such as missing declaration files will be suppressed.
 
 ## Contributing
+
 - Let me know if you encounter any bugs.
 - Feature requests are always welcome.

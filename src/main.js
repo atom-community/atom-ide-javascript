@@ -1,7 +1,7 @@
-import { CompositeDisposable } from "atom";
-import {setupTypeScript} from "./typescript.js";
+import { CompositeDisposable } from "atom"
+import { setupTypeScript } from "./typescript.js"
 
-let subscriptions;
+let subscriptions
 
 /**
  * called by Atom when activating an extension
@@ -9,13 +9,15 @@ let subscriptions;
  */
 export function activate(state) {
   // Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
-  subscriptions = new CompositeDisposable();
+  subscriptions = new CompositeDisposable()
 
-  package_deps().then(() => {
-    setupTypeScript()
-  }).catch((e) => {
-    atom.notifications.addError("atom-ide-javascript failed in installing its dependencies.")
-  })
+  package_deps()
+    .then(() => {
+      setupTypeScript()
+    })
+    .catch((e) => {
+      atom.notifications.addError("atom-ide-javascript failed in installing its dependencies.")
+    })
 }
 
 /**
@@ -24,23 +26,19 @@ export function activate(state) {
 async function package_deps() {
   // Add entries from package-deps here manually
   // (to prevent loading atom-package-deps and package.json when the deps are already loaded)
-  const deps =  [
-    "atom-ide-base",
-    "atom-typescript",
-    "linter-eslint",
-    "autocomplete-paths",
-    "javascript-drag-import"
-  ];
+  const deps = ["atom-ide-base", "atom-typescript", "linter-eslint", "autocomplete-paths", "javascript-drag-import"]
   if (deps.some((p) => !atom.packages.isPackageLoaded(p))) {
     await import("atom-package-deps").then((atom_package_deps) => {
       // install if not installed
-      atom_package_deps.install("atom-ide-javascript", false);
+      atom_package_deps.install("atom-ide-javascript", false)
       // enable if disabled
-      deps.filter((p) => !atom.packages.isPackageLoaded(p)).forEach(p => {
-        atom.notifications.addInfo(`Enabling package ${p} that is needed for atom-ide-javascript`)
-        atom.packages.enablePackage(p)
-      })
-    });
+      deps
+        .filter((p) => !atom.packages.isPackageLoaded(p))
+        .forEach((p) => {
+          atom.notifications.addInfo(`Enabling package ${p} that is needed for atom-ide-javascript`)
+          atom.packages.enablePackage(p)
+        })
+    })
   }
 }
 
@@ -49,9 +47,9 @@ async function package_deps() {
  */
 export function deactivate() {
   if (subscriptions) {
-    subscriptions.dispose();
+    subscriptions.dispose()
   }
-  subscriptions = null;
+  subscriptions = null
 }
 
 /**
@@ -67,4 +65,4 @@ export const config = {
   //   type: "boolean", // 'number', 'string'
   //   default: true,
   // },
-};
+}
