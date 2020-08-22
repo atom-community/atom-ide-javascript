@@ -39,7 +39,6 @@
     "typescript": "^3.9.7",
     "tslib": "^2.0.0",
     "coffeescript": "^2.5.1",
-    "jasmine": "^3.5.0",
     "@types/jasmine": "^3.5.11",
     "atom-jasmine3-test-runner": "^5.0.0",
     "prettier": "^2.0.5",
