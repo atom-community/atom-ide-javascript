@@ -45,8 +45,6 @@
     "prettier": "^2.0.5",
     "eslint": "7.5.0",
     "eslint-config-atomic": "^1.2.3",
-    "tslint": "6.1.2",
-    "tslint-config-prettier": "1.18.0",
     "rollup": "^2.22.1",
     "rollup-plugin-atomic": "^1.0.2",
     "shx": "^0.3.2",
