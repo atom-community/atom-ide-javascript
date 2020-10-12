@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.3.0...v1.3.1) (2020-10-12)
+
+
+### Bug Fixes
+
+* don't overwrite the user's config ([5b33bbd](https://github.com/atom-ide-community/atom-ide-javascript/commit/5b33bbdb679e3dfa3537b8ee9b02549f60593424))
+
 # [1.3.0](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.2.1...v1.3.0) (2020-10-12)
 
 
