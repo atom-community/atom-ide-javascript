@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.2.1...v1.3.0) (2020-10-12)
+
+
+### Bug Fixes
+
+* bump ([3823045](https://github.com/atom-ide-community/atom-ide-javascript/commit/3823045fc95e8ffa78e993ecd5d25c41dbbb5aca))
+
+
+### Features
+
+* support flow syntax ([2acb918](https://github.com/atom-ide-community/atom-ide-javascript/commit/2acb918f0d4c83a8d09f4a814fe66c54c6da6c3d))
+
 ## [1.2.1](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.2.0...v1.2.1) (2020-07-25)
 
 ### Bug Fixes
