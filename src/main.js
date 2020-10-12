@@ -51,18 +51,3 @@ export function deactivate() {
   }
   subscriptions = null
 }
-
-/**
- * called by IDE extensions to retrieve the service for registration
- * @return the current instance
- */
-export function provideYourService() {}
-
-export const config = {
-  // doSomething: {
-  //   title: "title",
-  //   description: "config description",
-  //   type: "boolean", // 'number', 'string'
-  //   default: true,
-  // },
-}
