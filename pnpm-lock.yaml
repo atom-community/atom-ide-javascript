@@ -1,6 +1,6 @@
 dependencies:
-  '@atom-ide-community/nuclide-commons-atom': 0.7.3-dev
-  '@atom-ide-community/nuclide-debugger-common': 0.7.3-dev
+  '@atom-ide-community/nuclide-commons-atom': 0.7.6
+  '@atom-ide-community/nuclide-debugger-common': 0.7.6
   atom-package-deps: 6.0.0
   react: 16.6.3
   vscode-chrome-debug-core: 3.17.10
@@ -28,10 +28,10 @@ devDependencies:
   typescript: 4.0.3
 lockfileVersion: 5.1
 packages:
-  /@atom-ide-community/nuclide-adb/0.7.3-dev:
+  /@atom-ide-community/nuclide-adb/0.7.5:
     dependencies:
-      '@atom-ide-community/nuclide-commons': 0.7.3-dev
-      '@atom-ide-community/nuclide-commons-atom': 0.7.3-dev
+      '@atom-ide-community/nuclide-commons': 0.7.5
+      '@atom-ide-community/nuclide-commons-atom': 0.7.6
       log4js: 1.1.1
       nullthrows: 1.0.0
       rxjs-compat: 6.3.3
@@ -40,14 +40,14 @@ packages:
     engines:
       atom: '>= 1.17.0'
     resolution:
-      integrity: sha512-T76dvwHAeqQLrxcUKenLkAlbiUhSUqdjSRHvtCabaEuNOljzXu26PjbdmeUz2/eXFC4dY8YCeTtkI3e+Y/uhJw==
-  /@atom-ide-community/nuclide-commons-atom/0.7.3-dev:
+      integrity: sha512-d5Y3oF/0I9eDApDdtT/BjpoHTzef3rqStxY/gzJnzhfJ4w6EXdm10WHIfm1BoGB+rO5bvZRrCujbNP7bdyvrqQ==
+  /@atom-ide-community/nuclide-commons-atom/0.7.6:
     dependencies:
-      '@atom-ide-community/nuclide-commons': 0.7.3-dev
+      '@atom-ide-community/nuclide-commons': 0.7.5
       escape-string-regexp: 1.0.5
       idb-keyval: 2.3.0
       idx: 1.2.0
-      lodash: 4.17.10
+      lodash: 4.17.20
       log4js: 1.1.1
       lru-cache: 4.0.2
       nullthrows: 1.0.0
@@ -60,11 +60,11 @@ packages:
       vscode-jsonrpc: 3.3.0
     dev: false
     resolution:
-      integrity: sha512-+R3IPXji7zSOAcpL8UYafFA7DWbSNHclwtmCND0CJ4dajjOgEwzeoXJ/TlC6z2xKl3+caHQphceGJn8djpduSQ==
-  /@atom-ide-community/nuclide-commons-ui/0.7.3-dev:
+      integrity: sha512-qkKhtka347FqXvs2deGrrQlt2xpbKS2pOF17YPnaUrvnQrByvfatXHC+YplDLXHbEwXFkiaM+T++37CB7v1o9A==
+  /@atom-ide-community/nuclide-commons-ui/0.7.6:
     dependencies:
-      '@atom-ide-community/nuclide-commons': 0.7.3-dev
-      '@atom-ide-community/nuclide-commons-atom': 0.7.3-dev
+      '@atom-ide-community/nuclide-commons': 0.7.5
+      '@atom-ide-community/nuclide-commons-atom': 0.7.6
       anser: 1.4.6
       classnames: 2.2.5
       dedent: 0.7.0
@@ -74,7 +74,7 @@ packages:
       escape-string-regexp: 1.0.5
       idx: 1.2.0
       invariant: 2.2.2
-      lodash: 4.17.10
+      lodash: 4.17.20
       log4js: 1.1.1
       moment: 2.21.0
       nullthrows: 1.0.0
@@ -88,8 +88,8 @@ packages:
       tiny-date-picker: 3.2.6
     dev: false
     resolution:
-      integrity: sha512-3FIGlw21nF+1FM5bLVT4Rb7CC/s4ff7PcrAYnzQefwmUMRbD+eAlkP+9/FXfS/veDMAtWwUBHY8Rx1xoL+zDAw==
-  /@atom-ide-community/nuclide-commons/0.7.3-dev:
+      integrity: sha512-vSOBo78VB3lznVCuwWU4x8LrMMzAY4xq6YLCchF5AlH+COjpXIFtAmdr7zRvoCHi6N2QZpqGC/dp/i8ZMQe74Q==
+  /@atom-ide-community/nuclide-commons/0.7.5:
     dependencies:
       '@atom-ide-community/nuclide-node-transpiler': 0.7.3-dev
       domexception: 1.0.1
@@ -109,19 +109,19 @@ packages:
       rxjs-compat: 6.3.3
       semver: 5.5.0
       shell-quote: 1.6.1
-      temp: 0.8.3
+      temp: 0.9.1
       uuid: 3.0.1
       vscode-jsonrpc: 3.3.0
       vscode-uri: 1.0.1
     dev: false
     resolution:
-      integrity: sha512-m+aZ4o0CzkN+MZbvHJqVoDO2q35DJC666gCW8C/FBcjwI/c3U4JhESUPitDzSGL1VStaLw8n4FWK5ern1Q3cTg==
-  /@atom-ide-community/nuclide-debugger-common/0.7.3-dev:
+      integrity: sha512-4oqNDeugJbLpL/4t/FZF3YShFA2Zp21na8z8JQS/tgQzWGSakpl7f5q7AX/eH2vDSst6qkTq0xKMYfXp0mFMMg==
+  /@atom-ide-community/nuclide-debugger-common/0.7.6:
     dependencies:
-      '@atom-ide-community/nuclide-adb': 0.7.3-dev
-      '@atom-ide-community/nuclide-commons': 0.7.3-dev
-      '@atom-ide-community/nuclide-commons-atom': 0.7.3-dev
-      '@atom-ide-community/nuclide-commons-ui': 0.7.3-dev
+      '@atom-ide-community/nuclide-adb': 0.7.5
+      '@atom-ide-community/nuclide-commons': 0.7.5
+      '@atom-ide-community/nuclide-commons-atom': 0.7.6
+      '@atom-ide-community/nuclide-commons-ui': 0.7.6
       idx: 1.2.0
       immutable: 4.0.0-rc.9
       invariant: 2.2.2
@@ -132,7 +132,7 @@ packages:
       vscode-debugprotocol: 1.24.0
     dev: false
     resolution:
-      integrity: sha512-Cr1ze7JPzDg3q/vWYrpZCelt8BudjnaDyUViW43Lek8uRQr13vlOnlKEEcEjxWT+p956u4UoNcXfPukgcrK0kg==
+      integrity: sha512-p/fucEcpLCYwNFd5ewPG+eu5/3WMsdA5MXCQ8EQn2j2xc/4HVtHwzSpKfenuabddWG3aJWgU0ec/HniAb9BVYA==
   /@atom-ide-community/nuclide-node-transpiler/0.7.3-dev:
     dependencies:
       glob: 7.1.1
@@ -4997,16 +4997,11 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==
-  /lodash/4.17.10:
-    dev: false
-    resolution:
-      integrity: sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
   /lodash/4.17.19:
     dev: true
     resolution:
       integrity: sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
   /lodash/4.17.20:
-    dev: true
     resolution:
       integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
   /log4js/1.1.1:
@@ -5663,6 +5658,7 @@ packages:
     resolution:
       integrity: sha1-IPnxeuKe00XoveWDsT0gCYA8FNk=
   /os-tmpdir/1.0.2:
+    dev: true
     engines:
       node: '>=0.10.0'
     resolution:
@@ -6400,7 +6396,6 @@ packages:
   /rimraf/2.6.3:
     dependencies:
       glob: 7.1.6
-    dev: true
     hasBin: true
     resolution:
       integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
@@ -7081,19 +7076,9 @@ packages:
       node: '>= 10'
     resolution:
       integrity: sha512-Glo3jkRtPcvpDlAs/0+hozav78yoXKFr+c4wgw62NNMO3oo4AaJdCo21Uu7lcwr55h39W2XD1LMERc64wtbItg==
-  /temp/0.8.3:
-    dependencies:
-      os-tmpdir: 1.0.2
-      rimraf: 2.2.8
-    dev: false
-    engines:
-      '0': node >=0.8.0
-    resolution:
-      integrity: sha1-4Ma8TSa5AxJEEOT+2BEDAU38H1k=
   /temp/0.9.1:
     dependencies:
       rimraf: 2.6.3
-    dev: true
     engines:
       node: '>=6.0.0'
     resolution:
@@ -7637,8 +7622,8 @@ packages:
     resolution:
       integrity: sha1-AwiOnr+edWtpdRYR0qXvWRSCyZU=
 specifiers:
-  '@atom-ide-community/nuclide-commons-atom': 0.7.3-dev
-  '@atom-ide-community/nuclide-debugger-common': 0.7.3-dev
+  '@atom-ide-community/nuclide-commons-atom': 0.7.6
+  '@atom-ide-community/nuclide-debugger-common': 0.7.6
   '@babel/cli': 7.11.6
   '@babel/core': 7.11.6
   '@types/atom': 1.40.4
