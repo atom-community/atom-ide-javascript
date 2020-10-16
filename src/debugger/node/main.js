@@ -4,26 +4,20 @@ import type {
 } from '@atom-ide-community/nuclide-debugger-common/types';
 import * as React from 'react';
 
-import createPackage from '@atom-ide-community/nuclide-commons-atom/createPackage';
 import {AutoGenLaunchAttachProvider} from '@atom-ide-community/nuclide-debugger-common/AutoGenLaunchAttachProvider';
 import {VsAdapterTypes, VsAdapterNames} from '@atom-ide-community/nuclide-debugger-common';
 
-class Activation {
-  constructor() {}
-  dispose() {}
-
-  createDebuggerProvider(): NuclideDebuggerProvider {
-    return {
-      type: VsAdapterTypes.NODE,
-      getLaunchAttachProvider: connection => {
-        return new AutoGenLaunchAttachProvider(
-          VsAdapterNames.NODE,
-          connection,
-          getNodeConfig(),
-        );
-      },
-    };
-  }
+export function createNodeDebuggerProvider(): NuclideDebuggerProvider {
+  return {
+    type: VsAdapterTypes.NODE,
+    getLaunchAttachProvider: connection => {
+      return new AutoGenLaunchAttachProvider(
+        VsAdapterNames.NODE,
+        connection,
+        getNodeConfig(),
+      );
+    },
+  };
 }
 
 function getNodeConfig(): AutoGenConfig {
@@ -160,5 +154,3 @@ function getNodeConfig(): AutoGenConfig {
     },
   };
 }
-
-createPackage(module.exports, Activation);

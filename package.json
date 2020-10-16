@@ -64,7 +64,7 @@
     "debugger.provider": {
       "description": "NodeJS debugger engine.",
       "versions": {
-        "0.0.0": "createDebuggerProvider"
+        "0.0.0": "createNodeDebuggerProvider"
       }
     }
   },
