@@ -1,12 +1,12 @@
 import type {
   AutoGenConfig,
   NuclideDebuggerProvider,
-} from 'nuclide-debugger-common/types';
+} from '@atom-ide-community/nuclide-debugger-common/types';
 import * as React from 'react';
 
-import createPackage from 'nuclide-commons-atom/createPackage';
-import {AutoGenLaunchAttachProvider} from 'nuclide-debugger-common/AutoGenLaunchAttachProvider';
-import {VsAdapterTypes, VsAdapterNames} from 'nuclide-debugger-common';
+import createPackage from '@atom-ide-community/nuclide-commons-atom/createPackage';
+import {AutoGenLaunchAttachProvider} from '@atom-ide-community/nuclide-debugger-common/AutoGenLaunchAttachProvider';
+import {VsAdapterTypes, VsAdapterNames} from '@atom-ide-community/nuclide-debugger-common';
 
 class Activation {
   constructor() {}
