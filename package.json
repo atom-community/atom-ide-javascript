@@ -24,9 +24,6 @@
     "prepare": "npm run build"
   },
   "atomTestRunner": "./spec/runner",
-  "activationHooks": [
-    "language-javascript:grammar-used"
-  ],
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
