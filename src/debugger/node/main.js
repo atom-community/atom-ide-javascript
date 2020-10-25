@@ -3,7 +3,7 @@ import type {
   NuclideDebuggerProvider,
 } from '@atom-ide-community/nuclide-debugger-common/types';
 import * as React from 'react';
-import { resolve as pathResolve } from 'path';
+import path from 'path';
 import {AutoGenLaunchAttachProvider} from '@atom-ide-community/nuclide-debugger-common/AutoGenLaunchAttachProvider';
 
 export function createNodeDebuggerProvider(): NuclideDebuggerProvider {
@@ -111,10 +111,10 @@ function getNodeConfig(): AutoGenConfig {
   const adapterExecutable = {
     command: 'node',
     args: [
-      pathResolve('./VendorLib/vscode-node-debug2/out/src/nodeDebug.js')
+      path.resolve(path.join(__dirname, 'VendorLib/vscode-node-debug2/out/src/nodeDebug.js'))
     ],
   }
-  const adapterRoot =  pathResolve('./VendorLib/vscode-node-debug2')
+  const adapterRoot =  path.resolve(path.join(__dirname, 'VendorLib/vscode-node-debug2'))
 
   return {
     launch: {
