@@ -3,7 +3,7 @@ import type {
   NuclideDebuggerProvider,
 } from '@atom-ide-community/nuclide-debugger-common/types';
 import * as React from 'react';
-
+import { resolve as pathResolve } from 'path';
 import {AutoGenLaunchAttachProvider} from '@atom-ide-community/nuclide-debugger-common/AutoGenLaunchAttachProvider';
 
 export function createNodeDebuggerProvider(): NuclideDebuggerProvider {
@@ -108,10 +108,20 @@ function getNodeConfig(): AutoGenConfig {
     visible: true,
   };
 
+  const adapterExecutable = {
+    command: 'node',
+    args: [
+      pathResolve('./VendorLib/vscode-node-debug2/out/src/nodeDebug.js')
+    ],
+  }
+  const adapterRoot =  pathResolve('./VendorLib/vscode-node-debug2')
+
   return {
     launch: {
       launch: true,
       vsAdapterType: 'node',
+      adapterExecutable,
+      adapterRoot,
       properties: [
         program,
         cwd,
@@ -144,6 +154,8 @@ function getNodeConfig(): AutoGenConfig {
     attach: {
       launch: false,
       vsAdapterType: 'node',
+      adapterExecutable,
+      adapterRoot,
       properties: [port],
       scriptExtension: '.js',
       header: <p>Attach to a running node.js process</p>,
