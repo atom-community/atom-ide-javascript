@@ -13,6 +13,9 @@ export function setupTypeScript() {
     )
   )
   atom.config.set("atom-typescript.ignoredDiagnosticCodes", ignoredDiagnosticCodes)
+
+  const jsSyntaxScopes = Array.from(new Set(atom.config.get("atom-typescript.jsSyntaxScopes").concat(["source.flow"])))
+  atom.config.set("atom-typescript.jsSyntaxScopes", jsSyntaxScopes)
 }
 
 /*
