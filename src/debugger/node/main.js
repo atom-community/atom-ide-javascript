@@ -5,14 +5,13 @@ import type {
 import * as React from 'react';
 
 import {AutoGenLaunchAttachProvider} from '@atom-ide-community/nuclide-debugger-common/AutoGenLaunchAttachProvider';
-import {VsAdapterTypes, VsAdapterNames} from '@atom-ide-community/nuclide-debugger-common';
 
 export function createNodeDebuggerProvider(): NuclideDebuggerProvider {
   return {
-    type: VsAdapterTypes.NODE,
+    type: 'node',
     getLaunchAttachProvider: connection => {
       return new AutoGenLaunchAttachProvider(
-        VsAdapterNames.NODE,
+        'Node',
         connection,
         getNodeConfig(),
       );
@@ -112,7 +111,7 @@ function getNodeConfig(): AutoGenConfig {
   return {
     launch: {
       launch: true,
-      vsAdapterType: VsAdapterTypes.NODE,
+      vsAdapterType: 'node',
       properties: [
         program,
         cwd,
@@ -144,7 +143,7 @@ function getNodeConfig(): AutoGenConfig {
     },
     attach: {
       launch: false,
-      vsAdapterType: VsAdapterTypes.NODE,
+      vsAdapterType: 'node',
       properties: [port],
       scriptExtension: '.js',
       header: <p>Attach to a running node.js process</p>,
