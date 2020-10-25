@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "atom-package-deps": "^6.0.0",
-    "@atom-ide-community/nuclide-commons-atom": "0.8.1",
-    "@atom-ide-community/nuclide-debugger-common": "0.8.1",
+    "@atom-ide-community/nuclide-commons-atom": "0.8.2",
+    "@atom-ide-community/nuclide-debugger-common": "0.8.2",
     "react": "16.6.3",
     "vscode-chrome-debug-core": "3.17.10",
     "vscode-debugadapter": "1.24.0",

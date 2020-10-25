@@ -1,6 +1,6 @@
 dependencies:
-  '@atom-ide-community/nuclide-commons-atom': 0.8.1
-  '@atom-ide-community/nuclide-debugger-common': 0.8.1
+  '@atom-ide-community/nuclide-commons-atom': 0.8.2
+  '@atom-ide-community/nuclide-debugger-common': 0.8.2
   atom-package-deps: 6.0.0
   react: 16.6.3
   vscode-chrome-debug-core: 3.17.10
@@ -28,10 +28,10 @@ devDependencies:
   typescript: 4.0.3
 lockfileVersion: 5.1
 packages:
-  /@atom-ide-community/nuclide-adb/0.8.1:
+  /@atom-ide-community/nuclide-adb/0.8.2:
     dependencies:
-      '@atom-ide-community/nuclide-commons': 0.8.1
-      '@atom-ide-community/nuclide-commons-atom': 0.8.1
+      '@atom-ide-community/nuclide-commons': 0.8.2
+      '@atom-ide-community/nuclide-commons-atom': 0.8.2
       log4js: 1.1.1
       nullthrows: 1.1.1
       rxjs-compat: 6.3.3
@@ -40,10 +40,10 @@ packages:
     engines:
       atom: '>= 1.17.0'
     resolution:
-      integrity: sha512-M6UDqjLyKy+vSB5iMQI1Z4PBX31m5POH04ibMBFjEZpt+lNWLTUL+9zlqioGl/S2iZzEJ8rRiqVsp8rN2VjuhQ==
-  /@atom-ide-community/nuclide-commons-atom/0.8.1:
+      integrity: sha512-4fx5Uh2IXq90NB4OrY++19ozEBTTDmS5bL42dIDypsqzE4s6U/85baaf1A0q91ibYut44Fekozjgv8amaP4qPg==
+  /@atom-ide-community/nuclide-commons-atom/0.8.2:
     dependencies:
-      '@atom-ide-community/nuclide-commons': 0.8.1
+      '@atom-ide-community/nuclide-commons': 0.8.2
       escape-string-regexp: 1.0.5
       idb-keyval: 2.3.0
       idx: 1.2.0
@@ -60,11 +60,11 @@ packages:
       vscode-jsonrpc: 3.3.0
     dev: false
     resolution:
-      integrity: sha512-sVhq+yoh62CYokwJ40HT1tjmPxUGKFMcIjWkRJWXt9i6GNMGQ3OPqRPuk3sI3ZuJCJaSVhKjw+hwp6RAsO1yzg==
-  /@atom-ide-community/nuclide-commons-ui/0.8.1:
+      integrity: sha512-3ntroAE/ErpcWEXFqDe1V5pBonCE60DyECamgonDkYcSveLazQiPC84kbhZg/RuLl1qAR5G58rBeRSB3g3hhXg==
+  /@atom-ide-community/nuclide-commons-ui/0.8.2:
     dependencies:
-      '@atom-ide-community/nuclide-commons': 0.8.1
-      '@atom-ide-community/nuclide-commons-atom': 0.8.1
+      '@atom-ide-community/nuclide-commons': 0.8.2
+      '@atom-ide-community/nuclide-commons-atom': 0.8.2
       anser: 1.4.6
       classnames: 2.2.6
       dedent: 0.7.0
@@ -73,7 +73,7 @@ packages:
       escape-html: 1.0.3
       escape-string-regexp: 1.0.5
       idx: 1.2.0
-      invariant: 2.2.4
+      invariant: /@react-dnd/invariant/2.0.0
       lodash: 4.17.20
       log4js: 1.1.1
       moment: 2.29.1
@@ -88,10 +88,10 @@ packages:
       tiny-date-picker: 3.2.8
     dev: false
     resolution:
-      integrity: sha512-JKMLnGbavS7TRne80KGPAFfu/dllf28Eiid4iAcbQEMLypYw+2U5Rstz9BozzauEe6cSuIodHNIIAvXlJHSzpg==
-  /@atom-ide-community/nuclide-commons/0.8.1:
+      integrity: sha512-GCl4fEooWNXtIPjFsvLs9hunyt2n28Dn8PFZK+TyMk1161abHqGlC4WT4K7kKW190yMszpqABDYyR2DcTIHLug==
+  /@atom-ide-community/nuclide-commons/0.8.2:
     dependencies:
-      '@atom-ide-community/nuclide-node-transpiler': 0.8.1
+      '@atom-ide-community/nuclide-node-transpiler': 0.8.2
       cr: 0.1.0
       domexception: 1.0.1
       dompurify: 2.1.1
@@ -116,16 +116,16 @@ packages:
       vscode-uri: 1.0.1
     dev: false
     resolution:
-      integrity: sha512-M3AQ2aKY91sN/hVi5kPxuXX6I1YB6N1MIFNIFr6NCgUynf8Dmx5StPVmklSi8sV3qsLPGyKZ6m1AzjfdiOTjlQ==
-  /@atom-ide-community/nuclide-debugger-common/0.8.1:
+      integrity: sha512-bZ2bjGbqF6C93KcW3bzb2Lgp84MG48PZbswkxNDQAYhkzB4DT4XtRCnvAy7ZKjIxnLihnfvKk3qBWbqgEoHFgg==
+  /@atom-ide-community/nuclide-debugger-common/0.8.2:
     dependencies:
-      '@atom-ide-community/nuclide-adb': 0.8.1
-      '@atom-ide-community/nuclide-commons': 0.8.1
-      '@atom-ide-community/nuclide-commons-atom': 0.8.1
-      '@atom-ide-community/nuclide-commons-ui': 0.8.1
+      '@atom-ide-community/nuclide-adb': 0.8.2
+      '@atom-ide-community/nuclide-commons': 0.8.2
+      '@atom-ide-community/nuclide-commons-atom': 0.8.2
+      '@atom-ide-community/nuclide-commons-ui': 0.8.2
       idx: 1.2.0
       immutable: 4.0.0-rc.12
-      invariant: 2.2.4
+      invariant: /@react-dnd/invariant/2.0.0
       nullthrows: 1.1.1
       react: 16.6.3
       rxjs-compat: 6.3.3
@@ -133,15 +133,15 @@ packages:
       vscode-debugprotocol: 1.24.0
     dev: false
     resolution:
-      integrity: sha512-sKFAdRAb+W/I+XTennlPjG6QEsGK/k3QGS3yqC7X/wVx7g6gh4kP7EBsr0osQO2kFhAHiAMEx6Qm25qC5WN4xQ==
-  /@atom-ide-community/nuclide-node-transpiler/0.8.1:
+      integrity: sha512-K4yXNM+dFvGThS2HpNWYuPv2BlK/xcWuX/UrOe50KBWYi56gUeQE7kB+V9kKRRsok6qKyGaSh4pFTsp4l3kArQ==
+  /@atom-ide-community/nuclide-node-transpiler/0.8.2:
     dependencies:
       glob: 7.1.6
       mkdirp: 1.0.4
       uuid: 3.0.1
     dev: false
     resolution:
-      integrity: sha512-G6/BRcwIeopJCDjEzHXc/UiSHPioihirxabUO6Ezan1S3kHkrS/NRHIYoxfiiQLRSA1kPhZ94eHU//4X9aqv4A==
+      integrity: sha512-5T9v0cTnXcQMLMWUJYt9Y1ptpYD2w/T+qI1pwbbGCd+9K6liwQfLo0QKn43th5uSVLji3TsaN9/gayUdAKsnww==
   /@babel/cli/7.11.6_@babel+core@7.11.6:
     dependencies:
       '@babel/core': 7.11.6
@@ -1454,6 +1454,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9Ea57XJjNLtBFRAaiKqqdoqRrL2QkM0vvCbMjPecljhog5IHupStPtZULbl0CoGN00N3lhLWJ4PaIEC0MGjqJw==
+  /@react-dnd/invariant/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-xL4RCQBCBDJ+GRwKTFhGUW8GXa4yoDfJrPbLblc3U09ciS+9ZJXJ3Qrcs/x2IODOdIE5kQxvMmE2UKyqUictUw==
   /@rollup/plugin-babel/5.2.1_@babel+core@7.11.6+rollup@2.32.0:
     dependencies:
       '@babel/core': 7.11.6
@@ -4320,6 +4324,7 @@ packages:
   /invariant/2.2.4:
     dependencies:
       loose-envify: 1.4.0
+    dev: true
     resolution:
       integrity: sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
   /invert-kv/1.0.0:
@@ -7735,8 +7740,8 @@ packages:
     resolution:
       integrity: sha1-AwiOnr+edWtpdRYR0qXvWRSCyZU=
 specifiers:
-  '@atom-ide-community/nuclide-commons-atom': 0.8.1
-  '@atom-ide-community/nuclide-debugger-common': 0.8.1
+  '@atom-ide-community/nuclide-commons-atom': 0.8.2
+  '@atom-ide-community/nuclide-debugger-common': 0.8.2
   '@babel/cli': 7.11.6
   '@babel/core': 7.11.6
   '@types/atom': 1.40.4
