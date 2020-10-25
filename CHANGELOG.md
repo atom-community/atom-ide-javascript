@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.3.1...v1.4.0) (2020-10-25)
+
+
+### Features
+
+* support source.flow ([f21c711](https://github.com/atom-ide-community/atom-ide-javascript/commit/f21c71137f879725d5ce1ca8d741d773c09d8e79))
+
 ## [1.3.1](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.3.0...v1.3.1) (2020-10-12)
 
 
