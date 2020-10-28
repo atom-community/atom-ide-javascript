@@ -1,6 +1,8 @@
 import { CompositeDisposable } from "atom"
 import { setupTypeScript } from "./typescript.js"
 
+export { createNodeDebuggerProvider } from "./debugger/node/main"
+
 let subscriptions
 
 /**

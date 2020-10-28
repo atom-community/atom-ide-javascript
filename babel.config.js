@@ -5,6 +5,6 @@ let plugins = []
 module.exports = {
   presets: presets,
   plugins: plugins,
-  exclude: "node_modules/**",
+  exclude: ["node_modules/**", "src/debugger/node/VendorLib/**"],
   sourceMap: "inline",
 }
