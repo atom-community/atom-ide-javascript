@@ -1,3 +1,26 @@
+# [1.5.0](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.4.0...v1.5.0) (2020-10-28)
+
+
+### Bug Fixes
+
+* add dependencies to main package.json ([5097e0d](https://github.com/atom-ide-community/atom-ide-javascript/commit/5097e0d248955ba7b0ce955af8d885a626b00996))
+* bump nuclide-* packages: adds support for adapterExecutable ([f5232c6](https://github.com/atom-ide-community/atom-ide-javascript/commit/f5232c6cbb4dce8d10832da3b00c2cc89356dd49))
+* bump rollup packages ([b1bed1c](https://github.com/atom-ide-community/atom-ide-javascript/commit/b1bed1c9a8356730c0bbf14906aae56006404562))
+* executable path not being calculated correctly ([3675c61](https://github.com/atom-ide-community/atom-ide-javascript/commit/3675c61c213c0e6311db61186c7f2253864c3257))
+* remove activation hook ([008d1d9](https://github.com/atom-ide-community/atom-ide-javascript/commit/008d1d994f12889011e766148e068e05ddbef4a4))
+* remove unnessary use of nuclide-debugger-common constants ([d77549f](https://github.com/atom-ide-community/atom-ide-javascript/commit/d77549ff2774855cb42e09c0b0d7497d380c2b0c))
+* update nuclide-* packages ([355975f](https://github.com/atom-ide-community/atom-ide-javascript/commit/355975f08bb76db249263f7c4ba43836a65c0447))
+* update nuclide-* packages - fixes rxjs ([ac4781e](https://github.com/atom-ide-community/atom-ide-javascript/commit/ac4781eea75bff9871db1399c3d2a171c139c0fc))
+* update nuclide-* packages to 0.8.0 ([fca9b2e](https://github.com/atom-ide-community/atom-ide-javascript/commit/fca9b2ecac0fc416dc94afbbca6c975d9e1b950c))
+* use [@atom-ide-community](https://github.com/atom-ide-community) nuclide packages ([b691995](https://github.com/atom-ide-community/atom-ide-javascript/commit/b691995fb4db7e370dd46b2911310be0b82356d8))
+
+
+### Features
+
+* add node-debugger files from nuclide ([f881c93](https://github.com/atom-ide-community/atom-ide-javascript/commit/f881c93301197e6e19d0d76467a24c9ded9956d3))
+* createNodeDebuggerProvider function ([a30f76f](https://github.com/atom-ide-community/atom-ide-javascript/commit/a30f76fac1b4517104680f43d9409c6b0ae14ebd))
+* provide adapterExecutable and adapterRoot in the debugger service ([acd9a6c](https://github.com/atom-ide-community/atom-ide-javascript/commit/acd9a6c96173e94e7ae428fb838f32eea417251a))
+
 # [1.4.0](https://github.com/atom-ide-community/atom-ide-javascript/compare/v1.3.1...v1.4.0) (2020-10-25)
 
 
