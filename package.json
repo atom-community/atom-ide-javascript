@@ -17,8 +17,10 @@
     "test": "atom --test spec",
     "clean": "shx rm -rf dist",
     "babel": "npm run clean && shx cp -r src dist && cross-env NODE_ENV=development cross-env BABEL_KEEP_MODULES=false babel dist --out-dir dist",
+    "copy": "shx cp -r src/debugger/node/VendorLib dist/debugger/node",
     "dev": "npm run clean && cross-env NODE_ENV=development cross-env BABEL_KEEP_MODULES=true rollup -c -w",
-    "build": "npm run clean && cross-env NODE_ENV=production cross-env BABEL_KEEP_MODULES=true rollup -c ",
+    "bundle": "npm run clean && cross-env NODE_ENV=production cross-env BABEL_KEEP_MODULES=true rollup -c ",
+    "build": "npm run babel && npm run copy",
     "build-commit": "build-commit -o dist",
     "bump": "ncu -u",
     "prepare": "npm run build"
