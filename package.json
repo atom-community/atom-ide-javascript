@@ -13,7 +13,9 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier --write .",
+    "test.format": "prettier . --check",
     "lint": "eslint . --fix",
+    "test.lint": "eslint .",
     "test": "atom --test spec",
     "clean": "shx rm -rf dist",
     "babel": "npm run clean && shx cp -r src dist && cross-env NODE_ENV=development cross-env BABEL_KEEP_MODULES=false babel dist --out-dir dist",
