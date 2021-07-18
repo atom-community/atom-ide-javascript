@@ -32,13 +32,13 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-deps": "^6.0.0",
-    "@atom-ide-community/nuclide-commons-atom": "0.8.2",
-    "@atom-ide-community/nuclide-debugger-common": "0.8.2",
-    "react": "16.6.3",
-    "vscode-chrome-debug-core": "3.17.10",
-    "vscode-debugadapter": "1.24.0",
-    "vscode-nls": "2.0.2"
+    "atom-package-deps": "^7.2.3",
+    "@atom-ide-community/nuclide-commons-atom": "0.8.3",
+    "@atom-ide-community/nuclide-debugger-common": "0.8.3",
+    "react": "17.0.2",
+    "vscode-chrome-debug-core": "6.8.11",
+    "vscode-debugadapter": "1.47.0",
+    "vscode-nls": "5.0.0"
   },
   "devDependencies": {
     "@types/atom": "1.40.10",
