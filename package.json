@@ -9,7 +9,7 @@
     "ide",
     "atom"
   ],
-  "repository": "https://github.com/atom-ide-community/atom-ide-javascript",
+  "repository": "https://github.com/atom-community/atom-ide-javascript",
   "license": "MIT",
   "scripts": {
     "format": "prettier --write .",
