@@ -52,7 +52,7 @@
     "eslint": "7.32.0",
     "eslint-config-atomic": "^1.12.4",
     "rollup": "^2.42.1",
-    "rollup-plugin-atomic": "^2.1.1",
+    "rollup-plugin-atomic": "^3.0.0",
     "shx": "^0.3.3",
     "cross-env": "^7.0.3",
     "@babel/cli": "7.14.8",
