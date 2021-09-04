@@ -56,7 +56,7 @@
     "shx": "^0.3.3",
     "cross-env": "^7.0.3",
     "@babel/cli": "7.15.4",
-    "@babel/core": "7.15.4",
+    "@babel/core": "7.15.5",
     "babel-preset-atomic": "^4.0.0",
     "npm-check-updates": "11.8.5",
     "build-commit": "0.1.4"
