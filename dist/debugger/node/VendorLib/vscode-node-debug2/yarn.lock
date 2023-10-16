@@ -2041,9 +2041,7 @@ gulp-symdest@^1.1.0:
     vinyl-fs "^2.4.3"
 
 gulp-tslint@^8.1.2:
-  version "8.1.3"
-  resolved "https://registry.yarnpkg.com/gulp-tslint/-/gulp-tslint-8.1.3.tgz#a89ed144038ae861ee7bfea9528272d126a93da1"
-  integrity sha512-KEP350N5B9Jg6o6jnyCyKVBPemJePYpMsGfIQq0G0ErvY7tw4Lrfb/y3L4WRf7ek0OsaE8nnj86w+lcLXW8ovw==
+  version "8.1.4"
   dependencies:
     "@types/fancy-log" "1.3.0"
     chalk "2.3.1"
@@ -4586,9 +4584,7 @@ tslib@^1.8.0, tslib@^1.8.1:
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
 
 tslint@^5.7.0:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.11.0.tgz#98f30c02eae3cde7006201e4c33cb08b48581eed"
-  integrity sha1-mPMMAurjzecAYgHkwzywi0hYHu0=
+  version "5.20.1"
   dependencies:
     babel-code-frame "^6.22.0"
     builtin-modules "^1.1.1"
@@ -4966,9 +4962,7 @@ vscode-chrome-debug-core@^3.20.2:
     ws "^3.3.2"
 
 vscode-debugadapter-testsupport@^1.25.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/vscode-debugadapter-testsupport/-/vscode-debugadapter-testsupport-1.32.0.tgz#3d5f49577a58f0eea6478570dd1332dad9b7d83c"
-  integrity sha512-I+NgaQ14Ww1gF8vOsnwDT6JCojHx5ximObfEgNU3C5L5JaPsyMictgalOqd2Y/WGQpCAMIF9GAElrCjWSr+Scg==
+  version "1.51.0"
   dependencies:
     vscode-debugprotocol "1.32.0"
 
@@ -5026,9 +5020,7 @@ vscode-nls@^3.2.1:
   integrity sha512-ITtoh3V4AkWXMmp3TB97vsMaHRgHhsSFPsUdzlueSL+dRZbSNTZeOmdQv60kjCV306ghPxhDeoNUEm3+EZMuyw==
 
 vscode@^1.1.9:
-  version "1.1.21"
-  resolved "https://registry.yarnpkg.com/vscode/-/vscode-1.1.21.tgz#1c8253d6238aefb4112d6e58cf975ad25313dafc"
-  integrity sha512-tJl9eL15ZMm6vzCYYeQ26sSYRuXGMGPsaeIAmG2rOOYRn01jdaDg6I4b9G5Ed6FISdmn6egpKThk4o4om8Ax/A==
+  version "1.1.37"
   dependencies:
     glob "^7.1.2"
     gulp-chmod "^2.0.0"
